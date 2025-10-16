@@ -1,5 +1,12 @@
 # HiatoryCalc
 
+## ! IMPORTANTE !
+
+**A api já está publica e podendo ser utilizada, para acessá-la vá em:**
+https://historycalc.onrender.com
+
+---
+
 API de uma calculadora que salva o histórico de cálculos usando Node.js, TypeScript e MongoDB Atlas.
 
 
