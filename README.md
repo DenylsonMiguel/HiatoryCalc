@@ -51,7 +51,7 @@ Buscar cálculo específico pelo ID (GET /calc/:id)
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/DenylsonMiguel/HiatoryCalc.git
+git clone https://github.com/DenylsonMiguel/HistoryCalc.git
 ```
 
 - Instale dependências:
