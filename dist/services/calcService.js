@@ -6,6 +6,9 @@ export class CalcService {
     async getById(id) {
         return await CalcModel.findById(id);
     }
+    async delete(id) {
+        return await CalcModel.findByIdAndDelete(id);
+    }
     async create(data) {
         const calc = new CalcModel(data);
         return await calc.save();

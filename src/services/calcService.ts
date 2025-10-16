@@ -10,6 +10,10 @@ export class CalcService {
         return await CalcModel.findById(id);
     }
     
+    async delete(id: string): Promise<ICalc | null> {
+        return await CalcModel.findByIdAndDelete(id);
+    }
+    
     async create(data: { operation: string, result: number }): Promise<ICalc> {
         const calc = new CalcModel(data);
         return await calc.save();
