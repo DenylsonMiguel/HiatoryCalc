@@ -1,4 +1,4 @@
-Calculadora API
+# Calculadora API
 
 API de uma calculadora que salva o histórico de cálculos usando Node.js, TypeScript e MongoDB Atlas.
 
@@ -58,12 +58,12 @@ Setup
 1. Clone o repositório:
 
 ```bash
-git clone <url-do-repo>
+git clone https://github.com/DenylsonMiguel/HiatoryCalc.git
 ```
 
 - Instale dependências:
 
-```
+```bash
 npm install
 ```
 
@@ -76,7 +76,7 @@ PORT=3000
 
 - Rode em desenvolvimento:
 
-```
+```bash
 npm run dev
 ```
 
