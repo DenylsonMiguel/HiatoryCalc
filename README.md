@@ -5,25 +5,18 @@ API de uma calculadora que salva o histórico de cálculos usando Node.js, TypeS
 
 ---
 
-Tecnologias
+## Tecnologias
 
-Node.js
-
-Express
-
-TypeScript
-
-Mongoose (MongoDB)
-
-Nodemon (desenvolvimento)
-
-dotenv (variáveis de ambiente)
-
-
+[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
+[![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
+[![Nodemon](https://img.shields.io/badge/Nodemon-76D04B?style=for-the-badge&logo=nodemon&logoColor=white)](https://nodemon.io/)
+[![dotenv](https://img.shields.io/badge/dotenv-000000?style=for-the-badge&logo=dotenv&logoColor=white)](https://www.npmjs.com/package/dotenv)
 
 ---
 
-Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 .
@@ -41,7 +34,7 @@ Estrutura do Projeto
 
 ---
 
-Funcionalidades
+## Funcionalidades
 
 Criar um cálculo (POST /calc)
 
@@ -53,7 +46,7 @@ Buscar cálculo específico pelo ID (GET /calc/:id)
 
 ---
 
-Setup
+## Setup
 
 1. Clone o repositório:
 
@@ -89,7 +82,7 @@ npm start
 
 ---
 
-Endpoints
+## Endpoints
 
 Método	Endpoint	Descrição
 
@@ -110,7 +103,7 @@ Exemplo POST /calc:
 
 ---
 
-Variáveis de Ambiente
+## Variáveis de Ambiente
 
 MONGO_URI → String de conexão do MongoDB Atlas
 
